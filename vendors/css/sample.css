@@ -8,6 +8,7 @@ body {
 }
 .main-header {
   padding-bottom: 15%;
+  padding-top: 125px;
   width: 100%;
   background-size: cover;
   background-image: url("../images/header.jpg");
@@ -39,28 +40,32 @@ header li {
 }
 header ul:after {
 }
-/ * This is the implementation of the header part * /
+
 .main-header  img {
  / * Implementation of the main image (image of the white "Achieve" characters) part * /
 }
 .about {
  / * Implementation of the About Achieve part * /
 }
-/ * From here * /
+
 .function {
   background-color: blue;
+  height:auto;
+  width: auto;
+
+
 }
 .function-images {
+  display: inline-flex;
 }
 .function-image {
   float: left;
   width: 10%;
   padding: 5px;
 }
-/ * This is the implementation of the function part * /
+
 .footer{
   height: 50px;
   background-color: blue;
   color: white;
 }
-/ * The description of css written here is just a template prepared as a hint, so follow the written description If you want to implement it without it, you can implement it as you like. Any implementation will pass if the task requirements are met and the quality of the code is determined to be at a certain level. * /
