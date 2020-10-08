@@ -1,0 +1,66 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  text-align: center;
+  margin: 0 auto;
+}
+.main-header {
+  padding-bottom: 15%;
+  width: 100%;
+  background-size: cover;
+  background-image: url("../images/header.jpg");
+  background-attachment: fixed;
+}
+
+.header {
+  background-color: #373641;
+  color:white;
+  text-align: left;
+}
+.header ul {
+    margin: 0;
+    padding: 0;
+}
+li.right{
+  float: right;
+  padding-right: 20px;
+}
+header ul a {
+  color: #fff;
+  text-decoration: none;
+  display: inline-block;
+  padding: 15px;
+}
+header li {
+  list-style: none;
+  display: inline-block;
+}
+header ul:after {
+}
+/ * This is the implementation of the header part * /
+.main-header  img {
+ / * Implementation of the main image (image of the white "Achieve" characters) part * /
+}
+.about {
+ / * Implementation of the About Achieve part * /
+}
+/ * From here * /
+.function {
+  background-color: blue;
+}
+.function-images {
+}
+.function-image {
+  float: left;
+  width: 10%;
+  padding: 5px;
+}
+/ * This is the implementation of the function part * /
+.footer{
+  height: 50px;
+  background-color: blue;
+  color: white;
+}
+/ * The description of css written here is just a template prepared as a hint, so follow the written description If you want to implement it without it, you can implement it as you like. Any implementation will pass if the task requirements are met and the quality of the code is determined to be at a certain level. * /
